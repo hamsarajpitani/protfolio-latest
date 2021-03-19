@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
-}
+/* Baltic Sea
+#1D1B24
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+White Lilac
+#F1F1F9
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+Medium Purple
+#8B48D6
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+Shark
+#191920
 
-.App-link {
-  color: #61dafb;
-}
+Bouquet
+#B995A7
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+Electric Violet
+#7B2FEA
+
+Jumbo
+#848487
+ */

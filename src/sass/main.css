@@ -1,0 +1,150 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("/src/images/memphis.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.nav {
+  color: white;
+  padding: 1.3rem 1.3rem !important;
+  font-weight: 550;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.nav__options {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.nav__options ul {
+  margin: 0;
+}
+
+.nav__options ul li {
+  margin: 0 1rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  min-width: 2rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.nav__options ul li:hover {
+  background-color: #F1F1F9;
+}
+
+.nav__contact__btn {
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  background-color: #7B2FEA;
+}
+
+.active {
+  background-color: #F1F1F9;
+  color: black !important;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+}
+
+.social {
+  position: fixed;
+  top: 35%;
+}
+
+.flex-center {
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-center i {
+  font-size: 1.8rem;
+}
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: white;
+}
+
+.icon-3d:hover {
+  -webkit-animation: icon3d 300ms infinite;
+  animation: icon3d 300ms infinite;
+}
+
+@-webkit-keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+/*# sourceMappingURL=main.css.map */
