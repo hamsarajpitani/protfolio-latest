@@ -1,7 +1,7 @@
 
 import './App.css';
 import Hero from './Hero';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
 
 import Socialbtn from './Socialbtn';
