@@ -1,0 +1,52 @@
+.hero{
+    width: 100vw;
+    height: 80vh;
+}
+
+.hero{
+    
+
+    .row{
+        
+        height: 100%;
+    }
+
+    &__text{
+        color: #F1F1F9;
+        h1{
+            font-weight: 550;
+            font-size: 3.5rem;
+            span{
+                opacity: .5;
+                font-size: 1.8rem;
+                font-weight: 400;
+            }
+            .emoji{
+                opacity: 1;
+                font-size: 1.6rem;
+            }
+        }
+        p{
+            max-width: 28rem;
+            font-weight: 550;
+            padding: 0 5px;
+            text-transform: capitalize;
+            .p_tag{
+                font-size: 1rem;
+                margin: 0 1rem;
+                color: #883df8;
+                font-weight: inherit;
+            }
+        }
+    }
+
+
+    &__img{
+        
+        svg{
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+}
