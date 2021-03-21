@@ -35,14 +35,14 @@ const Navbar2 = () => {
   return (
     <div>
       <div class="navbar-area">
-        <div class="container-fluid px-5">
+        <div class="container-fluid px-4">
           <nav class="site-navbar">
             <a href="#home" class="site-logo">
               Hello.
             </a>
 
             <ul>
-              <li>
+              <li className="menu-one">
                 <a href="#">home</a>
               </li>
               <li>

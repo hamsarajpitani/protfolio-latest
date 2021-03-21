@@ -40,13 +40,13 @@ body {
 
 .hero__text h1 {
   font-weight: 550;
-  font-size: 3.5rem;
+  font-size: 3.7rem;
 }
 
 .hero__text h1 h5 {
   color: rgba(255, 255, 255, 0.534);
   text-transform: lowercase;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -191,6 +191,9 @@ a.site-logo {
 /* nav-toggler css start */
 /* mobile breakpoint start */
 @media screen and (max-width: 767px) {
+  .menu-one {
+    margin-top: 19px !important;
+  }
   .btn__contact {
     display: none;
   }
@@ -207,7 +210,7 @@ a.site-logo {
   .site-navbar ul {
     position: absolute;
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 55px);
     left: 0;
     top: 60px;
     -webkit-box-orient: vertical;
@@ -217,9 +220,11 @@ a.site-logo {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-top: 1px solid #444;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    -ms-backdrop-filter: blur(4px);
     background-color: rgba(0, 0, 0, 0.911);
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 550;
     max-height: 0;
     overflow: hidden;
@@ -229,7 +234,7 @@ a.site-logo {
   .site-navbar ul li {
     width: 100%;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: .8rem;
   }
   .site-navbar ul li a {
     padding: 25px;

@@ -166,6 +166,9 @@ a.site-logo {
 /* mobile breakpoint start */
 @media screen and (max-width: 767px) {
 
+  .menu-one{
+    margin-top: 19px !important;
+  }
 .btn__contact{
   display: none;
 }
@@ -183,14 +186,15 @@ a.site-logo {
   .site-navbar ul {
     position: absolute;
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 55px);
     left: 0;
     top: 60px;
     flex-direction: column;
     align-items: center;
-    border-top: 1px solid #444;
+    backdrop-filter: blur(4px);
+    -ms-backdrop-filter: blur(4px);
     background-color: rgba(0, 0, 0, 0.911);
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 550;
     max-height: 0;
     overflow: hidden;
@@ -199,7 +203,7 @@ a.site-logo {
   .site-navbar ul li {
     width: 100%;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: .8rem;
   }
   .site-navbar ul li a {
     padding: 25px;
