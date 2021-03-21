@@ -4,6 +4,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-decoration: none;
 }
 
 html,
@@ -42,14 +43,16 @@ body {
   font-size: 3.5rem;
 }
 
-.hero__text h1 span {
-  opacity: .5;
-  font-size: 1.8rem;
+.hero__text h1 h5 {
+  color: rgba(255, 255, 255, 0.534);
+  text-transform: lowercase;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 
 .hero__text h1 .emoji {
   opacity: 1;
+  color: white;
   font-size: 1.6rem;
 }
 
@@ -73,40 +76,25 @@ body {
 }
 
 /******************************************/
-/* default css start */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.btn__contact {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 8px 17px;
+  text-transform: capitalize;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
+.btn__contact:hover {
+  color: white;
 }
 
-.container {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.header-area {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
-  background-position: center center;
-  background-size: cover;
-}
-
-/* default css end */
 /* navbar regular css start */
 .navbar-area {
   background: rgba(0, 0, 0, 0.6);
-  border-bottom: 1px solid #000;
+  font-family: 'Poppins', sans-serif;
+  border: none;
 }
 
 .site-navbar {
@@ -142,8 +130,9 @@ a.site-logo {
   color: #fff;
   padding: 20px;
   display: block;
+  font-weight: 600;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .site-navbar ul li a:hover {
@@ -153,7 +142,8 @@ a.site-logo {
 /* navbar regular css end */
 /* nav-toggler css start */
 .nav-toggler {
-  border: 3px solid #fff;
+  outline: none;
+  border: none;
   padding: 5px;
   background-color: transparent;
   cursor: pointer;
@@ -199,33 +189,11 @@ a.site-logo {
 }
 
 /* nav-toggler css start */
-/* intro-area css start */
-.intro-area {
-  height: calc(100vh - 61px);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.intro-area h2 {
-  font-size: 50px;
-  font-weight: 300;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
-
-.intro-area p {
-  font-size: 18px;
-}
-
-/* intro-area css end */
 /* mobile breakpoint start */
 @media screen and (max-width: 767px) {
+  .btn__contact {
+    display: none;
+  }
   .container {
     max-width: 720px;
   }
@@ -250,7 +218,9 @@ a.site-logo {
         -ms-flex-align: center;
             align-items: center;
     border-top: 1px solid #444;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.911);
+    font-size: 2.5rem;
+    font-weight: 550;
     max-height: 0;
     overflow: hidden;
     -webkit-transition: .3s;
@@ -259,6 +229,7 @@ a.site-logo {
   .site-navbar ul li {
     width: 100%;
     text-align: center;
+    margin-top: 2rem;
   }
   .site-navbar ul li a {
     padding: 25px;
@@ -269,10 +240,6 @@ a.site-logo {
   .site-navbar ul.open {
     max-height: 100vh;
     overflow: visible;
-  }
-  .intro-area h2 {
-    font-size: 36px;
-    margin-bottom: 15px;
   }
   /* navbar css for mobile end */
 }

@@ -9,8 +9,8 @@ const Hero = () => {
             <div className="col-md-5 col-12 hero__text col">
               <h1 className="mb-5">
                 Hi, i'm Raj <br />
-                <span className="mt-0">FullStack Devloper </span>
-                <span className="emoji">🖱️</span>
+                <h5 className="mt-2">FullStack Developer <span className="emoji">🖱️</span> </h5>
+               
               </h1>
               <p>
                 <span className="p_tag"> &lt; p &gt;</span>
