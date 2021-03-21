@@ -3,7 +3,7 @@ import './App.css';
 import Hero from './Hero';
 // import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
-import Skills from './Skills';
+// import Skills from './Skills';
 
 import Socialbtn from './Socialbtn';
 
@@ -14,8 +14,7 @@ function App() {
        <Navbar2/>
        <Socialbtn/>
        <Hero/>
-       <Skills/>
-
+     
     </div>
   );
 }

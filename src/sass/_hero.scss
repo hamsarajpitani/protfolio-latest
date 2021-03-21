@@ -1,8 +1,35 @@
 .hero {
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
 }
 
+.scroll{
+    margin-bottom: 20px;
+    img{
+        height: 50px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    p{
+        text-transform: lowercase;
+        opacity: .5;
+        font-size: .8rem;
+        animation: down 2s infinite;
+        transition: all 2s;
+    }
+
+    @keyframes down {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(20px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+}
 .hero {
   .row {
     height: 100%;

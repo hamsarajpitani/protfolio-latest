@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import scroll from "./icons/scroll-white.png";
 import redux from "./icons/icons8-redux-100.png";
 import redux1 from "./icons/icons8-redux-100-3.png";
 import redux2 from "./icons/icons8-redux-100-2.png";
@@ -16,7 +17,7 @@ import bs from "./icons/icons8-bootstrap-100.png";
 
 const Hero = () => {
   return (
-    <div className="container-fluid hero ">
+    <div className="container-fluid hero">
       <div className="row">
         <div className="col-10 mx-auto">
           <div className="row d-flex align-items-center justify-content-between">
@@ -52,7 +53,14 @@ const Hero = () => {
               </svg>
               </div>
             </div>
+
+          <div className="scroll">
+            <img  src={scroll} alt="" className="float-start"/>
+            <p className="text-white"> scroll down <i class="fa fa-arrow-down text-white" aria-hidden="true"></i></p>
+           
           </div>
+          </div>
+          
         </div>
       </div>
     </div>
