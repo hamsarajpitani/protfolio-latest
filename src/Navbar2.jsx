@@ -3,12 +3,12 @@
 import React, { useEffect } from "react";
 
 const Navbar2 = () => {
-  // define all UI variable
-  const navToggler = document.querySelector(".nav-toggler");
-  const navMenu = document.querySelector(".site-navbar ul");
-  const navLinks = document.querySelectorAll(".site-navbar a");
-
+  
   useEffect(() => {
+    // define all UI variable
+    const navToggler = document.querySelector(".nav-toggler");
+    const navMenu = document.querySelector(".site-navbar ul");
+    const navLinks = document.querySelectorAll(".site-navbar a");
     // functions of all event listners
   function allEventListners() {
     // toggler icon click event
@@ -33,7 +33,7 @@ const Navbar2 = () => {
   // load all event listners
   allEventListners();
     
-  }, [])
+  })
   
 
   return (
