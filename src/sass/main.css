@@ -393,6 +393,39 @@ a.site-logo {
   font-size: 3rem;
 }
 
+.loader {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: #e7e7e7;
+  background-color: #000000 !important;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  height: 100vh;
+  font-size: 8rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.loader span {
+  display: inline-block;
+  -webkit-animation: pulse 0.4s alternate infinite ease-in-out;
+          animation: pulse 0.4s alternate infinite ease-in-out;
+}
+
+.loader span:nth-child(odd) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+@keyframes pulse {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
 .social {
   position: fixed;
   top: 35%;
