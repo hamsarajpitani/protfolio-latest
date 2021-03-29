@@ -83,7 +83,7 @@
       padding: 1rem;
       border-radius: 15px;
       box-shadow: 5px 5px 20px 1px rgba(2, 2, 2, 0.623);
-      animation: pulse 2s infinite linear;
+      animation: code 2s infinite linear;
       transition: all 2s;
       border: .1px solid rgba(245, 245, 245, 0.253);
     }
@@ -107,7 +107,7 @@
         bottom: 3rem;
         left: 8rem;
       }
-      @keyframes pulse {
+      @keyframes code {
         0% {
          transform: scale(.5);
         }

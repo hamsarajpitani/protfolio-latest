@@ -140,8 +140,8 @@ body {
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 20px 1px rgba(2, 2, 2, 0.623);
           box-shadow: 5px 5px 20px 1px rgba(2, 2, 2, 0.623);
-  -webkit-animation: pulse 2s infinite linear;
-          animation: pulse 2s infinite linear;
+  -webkit-animation: code 2s infinite linear;
+          animation: code 2s infinite linear;
   -webkit-transition: all 2s;
   transition: all 2s;
   border: 0.1px solid rgba(245, 245, 245, 0.253);
@@ -167,7 +167,7 @@ body {
   left: 8rem;
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes code {
   0% {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
@@ -182,7 +182,7 @@ body {
   }
 }
 
-@keyframes pulse {
+@keyframes code {
   0% {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
@@ -204,7 +204,6 @@ body {
   }
 }
 
-/******************************************/
 .btn__contact {
   color: white;
   background-color: blueviolet;
@@ -416,6 +415,14 @@ a.site-logo {
 .loader span:nth-child(odd) {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
+}
+
+@-webkit-keyframes pulse {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
 }
 
 @keyframes pulse {

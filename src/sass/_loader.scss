@@ -1,13 +1,9 @@
 $background-color: #000000 !important;
 
-
-
-
 .loader {
-      display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 
-  
   color: rgb(231, 231, 231);
   background-color: $background-color;
   font-family: Consolas, Menlo, Monaco, monospace;
@@ -32,4 +28,4 @@ $background-color: #000000 !important;
     transform: scale(0.8);
     opacity: 0.5;
   }
-} 
+}
